@@ -8,11 +8,13 @@ import Service from './components/service'
 import Contact from './components/contact'
 import Footer from './components/footer'
 import Header from './components/header';
+import { HashRouter as Router, Route} from "react-router-dom";
+
 
 export default function App() {
     return (
         <div>
-                
+                  <Router>
             <Nav/>
             <Header/>
             <Service/>
@@ -21,7 +23,7 @@ export default function App() {
             <Team/>
             <Contact/>
             <Footer/>
-           
+            </Router>
         </div>
     )
 }
