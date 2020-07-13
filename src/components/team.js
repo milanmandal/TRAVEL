@@ -7,7 +7,7 @@ function Team() {
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">MANAGING TEAM</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 className="section-subheading text-muted">Meet our team</h3>
                 </div>
                 <div className="row">
                     <div className="col-lg-4">
